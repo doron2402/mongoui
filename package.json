@@ -10,15 +10,19 @@
   },
   "scripts": {
     "start": "node index.js",
-    "test": "mocha test"
+    "test": "mocha test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "dependencies": {
     "mongodb": "1.2.14",
     "monk": "0.7.1",
-    "express": "3.1.0",
+    "express": "4.16.0",
     "derby": "git://github.com/azat-co/derby#c98b9a42f3245e25f0cb6fcacd80cb37835b9125",
     "async": "*",
     "highlight": "0.2.3",
-    "derby-ui-boot": "git://github.com/azat-co/derby-ui-boot#v0.0.8"
-  }
+    "derby-ui-boot": "git://github.com/azat-co/derby-ui-boot#v0.0.8",
+    "snyk": "^1.41.1"
+  },
+  "snyk": true
 }
