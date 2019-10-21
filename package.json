@@ -13,8 +13,8 @@
     "test": "mocha test"
   },
   "dependencies": {
-    "mongodb": "1.2.14",
-    "monk": "0.7.1",
+    "mongodb": "3.1.13",
+    "monk": "3.0.0",
     "express": "3.1.0",
     "derby": "git://github.com/azat-co/derby#c98b9a42f3245e25f0cb6fcacd80cb37835b9125",
     "async": "*",
