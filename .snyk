@@ -1,0 +1,62 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:debug:20170905':
+    - derby > racer > connect > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > body-parser > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > compression > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > connect-timeout > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > express-session > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > finalhandler > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > morgan > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-index > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-static > send > debug:
+        patched: '2022-08-01T22:49:48.614Z'
+  'npm:mime:20170907':
+    - derby > racer > connect > serve-static > send > mime:
+        patched: '2022-08-01T22:49:48.614Z'
+  'npm:ms:20170412':
+    - derby > racer > connect > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > connect-timeout > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > body-parser > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > compression > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > connect-timeout > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > express-session > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > finalhandler > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > morgan > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-index > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-static > send > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-static > send > debug > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-favicon > ms:
+        patched: '2022-08-01T22:49:48.614Z'
+  'npm:negotiator:20160616':
+    - derby > racer > connect > compression > accepts > negotiator:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > connect > serve-index > accepts > negotiator:
+        patched: '2022-08-01T22:49:48.614Z'
+  'npm:ws:20160920':
+    - derby > racer > socket.io-client > ws:
+        patched: '2022-08-01T22:49:48.614Z'
+    - derby > racer > socket.io > socket.io-client > ws:
+        patched: '2022-08-01T22:49:48.614Z'
